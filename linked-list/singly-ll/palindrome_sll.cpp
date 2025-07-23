@@ -1,5 +1,19 @@
 // palindrome_sll.cpp
 // Check if a singly linked list is a palindrome
+
+/*
+Algorithm: Reverse Second Half & Compare
+----------------------------------------
+Find the middle of the list, reverse the second half, and compare both halves node by node.
+Restore the list after comparison if needed.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+LeetCode Problems:
+------------------
+1. Palindrome Linked List (LeetCode 234): https://leetcode.com/problems/palindrome-linked-list/
+*/
 #include <iostream>
 using namespace std;
 

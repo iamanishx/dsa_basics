@@ -1,5 +1,20 @@
 // remove_duplicates_sll.cpp
 // Remove duplicates from a sorted singly linked list
+
+/*
+Algorithm: Single Pass Removal
+-----------------------------
+Traverse the sorted linked list. If the current node's value equals the next node's value, remove the next node.
+Continue until the end of the list.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+LeetCode Problems:
+------------------
+1. Remove Duplicates from Sorted List (LeetCode 83): https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+2. Remove Duplicates from Sorted List II (LeetCode 82): https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
+*/
 #include <iostream>
 using namespace std;
 

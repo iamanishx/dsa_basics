@@ -1,5 +1,21 @@
 // middle_sll.cpp
 // Find the middle node of a singly linked list using slow/fast pointers
+
+/*
+Algorithm: Slow and Fast Pointer (Tortoise and Hare)
+---------------------------------------------------
+To find the middle node, use two pointers:
+    - Slow pointer moves one step at a time.
+    - Fast pointer moves two steps at a time.
+When fast pointer reaches the end, slow pointer will be at the middle.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+LeetCode Problems:
+------------------
+1. Middle of the Linked List (LeetCode 876): https://leetcode.com/problems/middle-of-the-linked-list/
+*/
 #include <iostream>
 using namespace std;
 

@@ -1,5 +1,20 @@
 // merge_sorted_sll.cpp
 // Merge two sorted singly linked lists
+
+/*
+Algorithm: Two Pointer Merge
+---------------------------
+Use two pointers to traverse both lists. At each step, append the smaller node to the result list.
+Continue until one list is exhausted, then append the remaining nodes.
+
+Time Complexity: O(n + m)
+Space Complexity: O(1) (if merging in-place)
+
+LeetCode Problems:
+------------------
+1. Merge Two Sorted Lists (LeetCode 21): https://leetcode.com/problems/merge-two-sorted-lists/
+2. Merge k Sorted Lists (LeetCode 23): https://leetcode.com/problems/merge-k-sorted-lists/
+*/
 #include <iostream>
 using namespace std;
 

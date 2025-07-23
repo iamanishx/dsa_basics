@@ -1,5 +1,24 @@
 // reverse_sll.cpp
 // Iterative and recursive reversal of singly linked list
+
+/*
+Algorithms:
+-----------
+1. Iterative Reversal:
+   - Use three pointers (prev, curr, next) to reverse the links one by one.
+   - Time Complexity: O(n)
+   - Space Complexity: O(1)
+
+2. Recursive Reversal:
+   - Recursively reverse the rest of the list, then fix the links.
+   - Time Complexity: O(n)
+   - Space Complexity: O(n) (due to recursion stack)
+
+LeetCode Problems:
+------------------
+1. Reverse Linked List (LeetCode 206): https://leetcode.com/problems/reverse-linked-list/
+2. Reverse Linked List II (LeetCode 92): https://leetcode.com/problems/reverse-linked-list-ii/
+*/
 #include <iostream>
 using namespace std;
 

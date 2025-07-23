@@ -1,5 +1,20 @@
 // nth_from_end_sll.cpp
 // Find the nth node from the end of a singly linked list
+
+/*
+Algorithm: Two Pointer Technique
+-------------------------------
+Use two pointers. Move the first pointer n steps ahead, then move both pointers until the first reaches the end.
+The second pointer will be at the nth node from the end.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+LeetCode Problems:
+------------------
+1. Remove Nth Node From End of List (LeetCode 19): https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+2. Find the Kth Node From the End (LeetCode 876 variant)
+*/
 #include <iostream>
 using namespace std;
 
